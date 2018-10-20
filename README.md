@@ -65,7 +65,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Victor Rodriguez** - *Initial work* - [PurpleBooth](https://github.com/VictorRodriguez)
+* **Victor Rodriguez** - *Initial work* - [Mantainer](https://github.com/VictorRodriguez)
 
 ## License
 
