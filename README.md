@@ -36,12 +36,20 @@ https://raw.githubusercontent.com/clearlinux/common/master/conf/dnf.conf
 
 ## Running the tests
 
+If we want to search what pkg provides the ls cmd
+
+```
 $ whatprovides /usr/bin/ls
 Last metadata expiration check: 13:37:08 ago on Sat 20 Oct 2018 04:06:27 AM UTC.
 coreutils-bin-8.30-48.x86_64 : bin components for the coreutils package.
 Repo        : clear
 Matched from:
 Filename    : /usr/bin/ls
+```
+
+Or the GCC compiler
+
+```
 
 $ whatprovides /usr/bin/gcc
 Last metadata expiration check: 13:37:22 ago on Sat 20 Oct 2018 04:06:27 AM UTC.
@@ -49,7 +57,7 @@ gcc-8.2.0-177.x86_64 : GNU cc and gcc C compilers
 Repo        : clear
 Matched from:
 Filename    : /usr/bin/gcc
-
+```
 
 ## Versioning
 
