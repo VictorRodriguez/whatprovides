@@ -4,7 +4,7 @@ whatprovides is a tool to find what package and bundle provide a binary in Clear
 
 ## Getting Started
 
-Usually as Clear Linux user is handy to have a tool that tell us what package (rpm) provides a binary or a library that we are using. With whatprovides this is possible with one single command line. Download the latest release uncompress and with autotools you can easily build the project
+Usually, as Clear Linux user is handy to have a tool that tells us what package (rpm) provides a binary or a library that we are using. With whatprovides, this is possible with one single command line. Download the latest release uncompress and with Autotools you can easily build the project
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@ make
 
 ### Installing
 
-whatprovides uses tha basic autotools system
+whatprovides uses the basic Autotools system
 
 ```
 cd whatprovides
@@ -65,9 +65,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Victor Rodriguez** - *Initial work* - [Mantainer](https://github.com/VictorRodriguez)
+* **Victor Rodriguez** - *Initial work* - [Maintainer](https://github.com/VictorRodriguez)
 
 ## License
 
 This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details
-
