@@ -86,8 +86,8 @@ int main (int argc, char** argv){
         }
     } else {
 
-        perror("dnf.conf does not exist in /etc/, please copy there");
-        perror("this is the file:");
+        perror("\ndnf.conf does not exist in /etc/, please copy there ");
+        printf("\nthis is the file:\n");
         char* data;
         data = download_dnf();
         if(data) {
